@@ -1,0 +1,45 @@
+$color-dark: #262626;
+$color-black: #000;
+$color-primary: #d3ab55;
+$color-secondary: #bbb;
+$color-white: #fff;
+@font-face {
+  font-family: iransans;
+  src: url(../font/iransans/ttf/IRANSansWeb.ttf);
+}
+@font-face {
+  font-family: iransans-num;
+  src: url(../font/iransans/ttf-num/IRANSansWebFaNum.ttf);
+}
+@font-face {
+  font-family: iransans-bold;
+  src: url(../font/iransans/ttf/IRANSansWeb_Bold.ttf);
+}
+@font-face {
+  font-family: iranyekan;
+  src: url(../font/iranyekan/IRANYekanWeb.ttf);
+}
+@font-face {
+  font-family: iranyekan-bold;
+  src: url(../font/iranyekan/IRANYekanWeb-Bold.ttf);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: iransans;
+  background-color: $color-dark;
+}
+@mixin centring($top) {
+  position: absolute;
+  top: $top;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin flexLayout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-scss": "node-sass -o style/css style/scss/ -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcadio-1/Restaurant.git"
+  },
+  "author": "arcadio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arcadio-1/Restaurant/issues"
+  },
+  "homepage": "https://github.com/Arcadio-1/Restaurant#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
